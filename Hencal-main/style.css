@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Jura', sans-serif;
+    height: 1080px;
+    width: 1920px;
+    background: linear-gradient(to right, #3A3A3A, #000000);
+  }
+  
+  .main-header {
+    width: 1920px;
+    height: 161px;
+    background: linear-gradient(to right, #3A3A3A, #000000);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-container {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 101px;
+    width: auto;
+  }
+  
+  .title {
+    font-size: 58px;
+    font-weight:500;
+    margin-left: 20px;
+    margin-top: 20px ;
+    color: #F32365;
+    flex: 1;
+  }
+  .title-img{
+    display: flex;
+    align-items: flex-start;
+    margin-left: -100px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 120px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #F32365;
+    font-weight: 500;
+    font-size: 38px;
+    transition: color 0.3s ease;
+  }
+  .menu-sep{
+ display: flex;
+ align-items: flex-start;
+ margin-top: 20px;
+
+  }
+  
+  .nav-menu a:hover {
+    color: #ffffff;
+  }
+  .social-problem-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: transparent;
+  }
+  
+  .left-content {
+    flex: 1;
+    margin-top: -0px;
+    max-width: 30%;
+  }
+  
+  .center-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+  }
+  
+  .right-content {
+    max-width: 30%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -30px;
+
+  }
+  .highlight-title{
+    font-size: 54px;
+    color: #F32365;
+    font-weight: 600;
+  }
+  
+  .rounded-image {
+    width: 439px;
+    height: 439px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    object-fit: cover;
+  }
+  
+  .brain-icon {
+    width: 367px;
+    height: 367px;
+    margin-top: 80px;
+  }
+  .btn {
+    background:transparent;
+    color: rgb(255, 255, 255);
+    font-family: "Jura", sans-serif;
+    width: 318px;
+    height: 85px;
+    margin: 15px;
+    margin-top: 80px;
+    padding: 0;
+    font-size: 45px;
+    border: 4px solid;
+    border-color: #5e5e5e;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+  }
+  .btn2{
+    background:transparent;
+    color: rgb(255, 255, 255);
+    font-family: "Jura", sans-serif;
+    width: 318px;
+    height: 85px;
+    margin: 15px;
+    margin-top: 100px;
+    padding: 0;
+    font-size: 45px;
+    border: 4px solid;
+    border-color: #5e5e5e;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+  }
+
+
+  .btn:hover {
+   color: #eeacbc;
+  }
+  .btn2:hover {
+    color: #eeacbc;
+   }
+  .dropdown-icon {
+    font-size:38px;
+    margin-top: -10px;
+  }
+  .section-title{
+    font-size: 54px;
+    color: #F32365;
+  }
+  .section-text{
+    font-size: 34px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .firts-footer{
+    height: 88px;
+    width: auto;
+    background: linear-gradient(to right, #3A3A3A, #000000);
+    box-shadow: 0px 4px 10px rgba(8, 0, 0, 0.9);
+  }
+  .politcs-title{
+ font-size: 40px;
+ color: #F32365;
+ font-weight: 400;
+ margin-left: 30px;
+  margin-bottom: -400px;
+  cursor: pointer;
+  }
+  .politcs-title:hover{
+    color: #ffffff;
+  }
